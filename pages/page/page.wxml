@@ -1,0 +1,26 @@
+<!--
+/*
+ * 
+ * WordPres版微信小程序
+ * author: jianbo
+ * organization: 鸢尾花序  www.kelin601.com
+ * github:    https://github.com/iamxjb/winxin-app-watch-life.net
+ * 技术支持微信号：iamxjb
+ * 开源协议：MIT
+ * Copyright (c) 2017 https://www.kelin601.com All rights reserved.
+ *
+ */-->
+<import src="../../wxParse/wxParse.wxml"/>
+<import src="../../templates/header.wxml"/> 
+<view class="container">
+  
+    <template is="tempHeader"/>
+    <view class="content-article ">
+                    <view class="entry-title">
+                   {{pageData.title.rendered}}
+                    </view>
+                    <view class="entry-summary">
+                    <template is="wxParse" data="{{wxParseData:article.nodes}}"/>
+                    </view>
+                </view>
+</view>
