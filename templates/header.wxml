@@ -12,7 +12,7 @@
 
 <template name="tempHeader">
   <view class="header">
-    <image src="../../images/logos.png" style="height:200rpx;width:400rpx"></image>
+    <image src="../../images/logos.png" style="height:150px;width:100% !important"></image>
     <view style='margin-top:40rpx'>
       始终相信与人为善，是善待内心的最佳途径.
     </view>

@@ -148,3 +148,7 @@ margin-top:8rpx;
 .gotowebpage-button::after{
    border: none; 
 }
+.header img{
+  width: 100% !important;
+  height: 150px;
+}

@@ -598,11 +598,14 @@
 }
 .nav-previous {
     float: left;
-    width: 80%;
+    width: 100%;
 }
 
 .nav-next {
     float: right;
     text-align: right;
-    width: 80%;
-} 
+    width: 100%;
+}
+.content-article-detail .wxParse-p:nth-last-child(1),.content-article-detail .wxParse-p:nth-last-child(2),.content-article-detail .wxParse-script:nth-last-child(1){
+  display: none !important;
+}
